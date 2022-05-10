@@ -13,6 +13,7 @@
     /* Font */
     --font-family__title:   'Montserrat', sans-serif;
     --font-family__text:   'Open Sans',sans-serif;
+    --font-family__icons: 'Success Icons';
 
     /* Button */
     --base-animation: all .35s ease;

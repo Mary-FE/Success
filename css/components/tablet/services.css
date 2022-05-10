@@ -1,0 +1,12 @@
+.services .title {
+    font-size: 45px;
+}
+
+.services .wrapper {
+    grid-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.services .text {
+    font-size: 18px;
+}

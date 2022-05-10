@@ -1,0 +1,17 @@
+.services .title {
+    font-size: 37px;
+    margin-bottom: 30px;
+}
+
+.services .wrapper {
+    display: grid;
+}
+
+.services .subtitle {
+    margin-bottom: 25px;
+}
+
+.services .text {
+    margin-bottom: 15px;
+    font-size: 14px;
+}
