@@ -1,0 +1,87 @@
+body {
+    color: var(--success-color7);
+    font-family: var(--font-family__text);
+}
+
+/* Buttons ====================================*/
+.button {
+    color: var(--factory-color5);
+    font: 400 14px/1.4 var(--font-family__text);
+    text-decoration: none;
+    text-transform: uppercase;
+
+    transition: var(--base-animation);
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: var(--factory-color4);
+}
+
+/* Submit */
+._submit {
+    padding: 10px 30px;
+    background-color: var(--success-form__button);
+    border-radius: 20px 
+}
+
+._submit:hover {
+    background-color: var(--success-hover__button);
+}
+
+/* Direction */
+._direcrion {
+    padding: 14px 62px 16px;
+    color: var(--success-color1);
+    background-color: var(--success-color4);
+}
+
+._contact:hover {
+    background-color: var(--success-color2) ;
+}
+
+._read:hover {
+    color: var(--success-color1);
+    background-color: var(--success-color3);
+}
+/* ===================================================================================== */
+
+/* Icons */
+.icon { position: relative }
+.icon:before { font-family: var(--font-family__icons); }
+
+.icon._violet {
+    color: var(--success-color1);
+    background-color: var(--success-color5);
+    font-size: 20px;
+}
+
+.icon._bigger {
+    color: var(--success-color1);
+    font-size: 35px;
+}
+
+.icon._only {
+    color: var(--success-color5);
+    background-color: var(--success-color1);
+}
+/* ====================================================================================== */
+/* Titiles */
+h1 {
+    font: 59px var(--font-family__title);
+}
+
+h2 {
+    font: 600 40px var(--font-family__title);
+}
+
+h3 {
+    font: 600 20px var(--font-family__title);
+}
+
+
+.box {
+    max-width: 1200px; /* 1200px go to some variable */
+    margin: 0 auto;
+    padding: 20px 30px;
+}

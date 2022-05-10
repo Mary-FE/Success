@@ -1,0 +1,36 @@
+:root {
+    --success-color1: #fff;
+    --success-color2: #f9e79b;
+    --success-color3: #808080;
+    --success-color4: #f1c50e;
+    --success-color5: #7c5ddf;
+    --success-color6: #404040;
+    --success-color7: #111;
+
+    --success-form__button: #f1edfc;
+    --success-hover__button: #d0c3f5;
+
+    /* Font */
+    --font-family__title:   'Montserrat', sans-serif;
+    --font-family__text:   'Open Sans',sans-serif;
+
+    /* Button */
+    --base-animation: all .35s ease;
+
+    /* Icons */
+    --icon-mobile: '\e900';
+    --icon-light: '\e901';
+    --icon-wi-fi: '\e902';
+    --icon-people: '\e903';
+    --icon-file: '\e904';
+    --icon-pencil: '\e905';
+    --icon-plus: '\e906';
+    --icon-fist: '\e907';
+    --icon-pointer: '\e908';
+    --icon-community: '\e909';
+    --icon-reward: '\e90a';
+    --icon-quotes: '\e90b';
+
+
+
+}

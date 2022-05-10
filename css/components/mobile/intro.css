@@ -1,0 +1,54 @@
+.into {
+    position: relative;
+}
+
+.intro picture {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.intro img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.intro .title {
+    padding: 70px 0 30px;
+    font-size: 31px;
+    line-height: 1;
+}
+
+.intro .item {
+    margin-bottom: 10px;
+    color: var(--success-color1);
+}
+
+.intro .second-title {  
+    margin-bottom: 20px;
+}
+
+/* Input ==========================*/
+.intro input,
+.intro textarea {  
+    display: block; 
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+/* =============================== */
+/* Form =======================*/
+.intro .form {
+    padding: 20px;
+    background-color: var(--success-color4);
+    border-radius: 20px;
+}
+
+.intro textarea {
+    height: 120px;
+}
