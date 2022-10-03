@@ -1,0 +1,9 @@
+.footer .example {
+    max-width: 300px;
+    font-size: 18px;
+}
+
+.footer .text {
+    max-width: 520px;
+    font-size: 40px;
+}

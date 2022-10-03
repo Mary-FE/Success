@@ -1,0 +1,19 @@
+.reviews {
+    padding: 40px 0;
+    background-color: var(--success-color3-light);
+}
+
+.reviews .title {
+    margin-bottom: 20px;
+}
+
+.reviews .text {
+    padding: 10px;
+    line-height: 2;
+    background-color: var(--success-color1);
+}
+
+.reviews .item {
+    background-color: var(--success-color5);
+    padding: 20px;
+}

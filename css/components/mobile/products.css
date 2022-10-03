@@ -1,0 +1,35 @@
+.products {
+    padding: 20px 0;
+    background-color: var(--success-color3-light);
+}
+
+.products .title {
+    margin-bottom: 30px;
+    line-height: 1;
+}
+
+.products .photo {
+    display: grid;
+    grid-gap: 20px;
+    margin-bottom: 20px;
+}
+
+.products picture {
+    overflow: hidden;
+    height: 270px;
+}
+
+.products img {
+    width: 100%;
+    height: 100%;
+    
+    object-fit: cover;
+    cursor: pointer;
+
+    transition: all .3s ease;
+}
+
+.products img:hover {
+    transform: scale(1.1);
+    filter: brightness(.8);
+} 

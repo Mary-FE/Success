@@ -1,0 +1,7 @@
+.about {
+    background-color: var(--success-color3-light);
+}
+
+.about .title {
+    margin-bottom: 15px;
+}

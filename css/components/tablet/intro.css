@@ -1,0 +1,28 @@
+.intro {
+    padding: 50px 0;
+}
+
+.intro .item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.intro .title {
+    padding: 0;
+    grid-row: 1/5;
+    line-height: 1.3;
+    font-size: 40px;
+}
+
+.intro .second-title {
+    font-size: 25px;
+}
+
+.intro .text {
+    font-size: 18px;
+}
+
+.intro .form {
+    margin: 20px;
+    padding: 30px;
+}

@@ -15,6 +15,7 @@
     <title>Success</title>
 </head>
 <body>
+
     <!-- This is intro -->
     <section class="intro">
         <picture>
@@ -26,18 +27,18 @@
                 <h2 class="title">Preparing For Your Success, We Provide Truly Prominent IT Solutions.</h2>
                 <h3 class="second-title">Make An Appointment</h3>
                 <div class="text">Get in touch and discover how we can help. We aim to be in touch</div>
+                <form class="form" action="#" method="get" onsubmit="() => false">
+                    <input class="name" type="text" placeholder="Enter your Name" required minlength="10">
+                    <input class="email" type="email" placeholder="Enter a valid email address" required>
+                    <textarea name="message" placeholder="Enter your message"></textarea>
+                    <button type="submit" class="button _submit">Submit</button>
+                </form>
             </div>
-            <form class="form" saction="#" method="get">
-                <input class="name" type="name" placeholder="Enter your Name">
-                <input class="email" type="email" placeholder="Enter a valid email address">
-                <textarea name="message" placeholder="Enter your message"></textarea>
-                <button class="button _submit">Submit</button>
-            </form>
         </div>
     </section>
 
     <!-- This is services -->
-    <section class="services">
+    <!-- <section class="services">
         <div class="box">
             <h2 class="title">Our Services</h2>
             <div class="wrapper">
@@ -91,7 +92,279 @@
                 </div>
             </div>
         </div>
+    </section> -->
+
+     <!-- This is services -->
+     <section class="services">
+        <div class="box block">
+            <h2 class="title">Our Services</h2>
+            <div class="wrapper">
+                <div class="service-info">
+                    <span class="service-info__icon service-info__icon--phone"></span>
+                    <h3 class="service-info__subtitle">Copywriting</h3>
+                    <div class="service-info__text">
+                        Sample text. Click to select the text box. Click again or double 
+                        click to start editing the text.
+                    </div>
+                </div>
+                <div class="service-info">
+                    <span class="service-info__icon service-info__icon--light"></span>
+                    <h3 class="service-info__subtitle">Graphic Design</h3>
+                    <div class="service-info__text">
+                        Sample text. Click to select the text box. Click again or double 
+                        click to start editing the text.
+                    </div>
+                </div>
+                <div class="service-info">
+                    <span class="service-info__icon service-info__icon--wi-fi"></span>
+                    <h3 class="service-info__subtitle">Development</h3>
+                    <div class="service-info__text">
+                        Sample text. Click to select the text box. Click again or double 
+                        click to start editing the text.
+                    </div>
+                </div>
+                <div class="service-info">
+                    <span class="service-info__icon service-info__icon--people"></span>
+                    <h3 class="service-info__subtitle">Logistics</h3>
+                    <div class="service-info__text">
+                        Sample text. Click to select the text box. Click again or double 
+                        click to start editing the text.
+                    </div>
+                </div>
+                <div class="service-info">
+                    <span class="service-info__icon service-info__icon--file"></span>
+                    <h3 class="service-info__subtitle">Consultations</h3>
+                    <div class="service-info__text">
+                        Sample text. Click to select the text box. Click again or double 
+                        click to start editing the text.
+                    </div>
+                </div>
+                <div class="service-info">
+                    <span class="service-info__icon service-info__icon--pencil"></span>
+                    <h3 class="service-info__subtitle">Web Design</h3>
+                    <div class="service-info__text">
+                        Sample text. Click to select the text box. Click again or double 
+                        click to start editing the text.
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     
+    <!-- This is about -->
+    <section class="about" background-color: lightgrey;>
+        <div class="box">
+            <h2 class="title">About Us</h2>
+            <div class="tabs">
+                <input type="radio" id="tab1" name="tab_name" class="tab__title" checked>
+                <label for="tab1" class="tab__label">Overview</label>
+                <div class="tab__box">
+                    <h3>
+                        Brave is an innovative web solution, which combines captivating design
+                        and flawless functionality in a multipurpose HTML template.
+                    </h3>
+                    <mark>
+                        Sample text. Click to select the text box. Click again or double click to 
+                        start editing the text. Duis aute irure dolor in reprehenderit in voluptate velit
+                        esse cillum dolore eu fugiat nulla pariatur.
+                    </mark>
+                    <div>
+                        Sample text. Click to select the text box. Click again or double click to 
+                        start editing the text. Duis aute irure dolor in reprehenderit in voluptate velit
+                        esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+           
+                <input type="radio" id="tab2" name="tab_name" class="tab__title">
+                <label for="tab2" class="tab__label">Founder</label>
+                <div class="tab__box">
+                    <div>Sample text. Click to select the text box. Click again or double click to
+                         start editing the text. Duis aute irure dolor in reprehenderit in voluptate
+                          velit esse cillum dolore eu fugiat nulla pariatur.
+                        </div>
+                    <div>
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <input type="radio" id="tab3" name="tab_name" class="tab__title">
+                <label for="tab3" class="tab__label">Mission</label>
+                <div class="tab__box">
+                    <h3>Be The First To Review This Product!</h3>
+                    <div>
+                        Sample text. Click to select the text box. Click again or double click
+                        to start editing the text.
+                    </div>
+                    <a href="#" class="link">Write product review</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- This is products -->
+    <section class="products">
+        <div class="box">
+            <h2 class="title">Build Great Products</h2>
+            <div class="photo">
+                <picture>
+                    <source srcset="img/kitchen-mobile.jpg" media="(max-width:767px" />
+                    <img src="img/kitchen.jpg" alt="Cubiken kitchen design" loading="lazy"/>
+                </picture>
+                <picture>
+                    <source srcset="img/mockup-mobile.jpg" media="(max-width:767px" />
+                    <img src="img/mockup.jpg" alt="mockup" />
+                </picture>
+                <picture>
+                    <source srcset="img/books-mobile.jpg" media="(max-width:767px" />
+                    <img src="img/books.jpg" alt="books" />
+                </picture>
+                <picture>
+                    <source srcset="img/king-mobile.jpg" media="(max-width:767px" />
+                    <img src="img/king.jpg" alt="king" />
+                </picture>
+                <picture>
+                    <source srcset="img/paper-mobile.jpg" media="(max-width:767px" />
+                    <img src="img/paper.jpg" alt="paper" />
+                </picture>
+                <picture> 
+                    <source srcset="img/minimal-mobile.jpg" media="(max-width:767px" />
+                    <img src="img/minimal.jpg" alt="minimal" />
+                </picture>
+            </div>
+            <button class="button _contact">Contact us</button>
+        </div>
+    </section>
+
+    <!-- This is study -->
+    <section class="study">
+        <div class="box">
+            <div>
+                <h3 class="heading">We partner with the world's leading universities</h3>
+                <div class="text">
+                    Etiam erat velit scelerisque in dictum non consectetur. Nisl purus in mollis nunc
+                    sed id semper. Cras fermentum odio eu feugiat pretium nibh ipsum.
+                </div>
+                <button class="button _read">Read more</button>
+            </div>
+            <div class="type">
+                <details class="collapse">
+                    <summary class="collapse__title">Create a Webinar in Minutes</summary>
+                    <div class="collapse__box">
+                        <b>
+                            Interdum velit euismod in pellentesque massa placerat duis. 
+                            Tristique et egestas quis ipsum suspendisse ultrices gravida dictum fusce. 
+                            Nibh nisl condimentum.
+                        </b>
+                        <ul>
+                            <li>Mattis nunc sed blandit libero volutpat.</li>
+                            <li>Tortor at risus viverra adipiscing at in tellus.</li>
+                            <li>Blandit turpis cursus in hac habitasse.</li>
+                        </ul>
+                    </div>
+                </details>
+                <details class="collapse">
+                    <summary class="collapse__title">Business Sustainability Management</summary>
+                    <div class="collapse__box">
+                        <ul>
+                            <li>Mattis nunc sed blandit libero volutpat.</li>
+                            <li>Tortor at risus viverra adipiscing at in tellus.</li>
+                            <li>Blandit turpis cursus in hac habitasse.</li>
+                        </ul>
+                    </div>
+                </details>
+                <details class="collapse">
+                    <summary class="collapse__title">Learn how to grow your business</summary>
+                    <div class="collapse__box">
+                        <ul>
+                            <li>Mattis nunc sed blandit libero volutpat.</li>
+                            <li>Tortor at risus viverra adipiscing at in tellus.</li>
+                            <li>Blandit turpis cursus in hac habitasse.</li>
+                        </ul>
+                    </div>
+                </details>
+                <details class="collapse">
+                    <summary class="collapse__title">Practical tips to help you price your products</summary>
+                    <div class="collapse__box">
+                        <ul>
+                            <li>Mattis nunc sed blandit libero volutpat.</li>
+                            <li>Tortor at risus viverra adipiscing at in tellus.</li>
+                            <li>Blandit turpis cursus in hac habitasse.</li>
+                        </ul>
+                    </div>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- This is Consulting -->
+    <section class="consulting">
+        <div class="box">
+            <div class="title">Consulting Successes</div>
+            <div class="text">
+                Sample text. Click to select the text box. Click again or double click to start
+                editing the text. Sit amet porttitor eget dolor morbi non arcu risus quis. Lacus
+                sed viverra tellus in hac habitasse. Nam libero justo laoreet sit. Donec ultrices
+                tincidunt arcu non sodales neque sodales.
+            </div>
+            <div class="item">
+                <div class="type _yellow">
+                    <span class="icon fist"></span>
+                    <div class="name">Projects</div>
+                    <div class="number">100</div>
+                </div>
+                <div class="type  _violet">
+                    <span class="icon pointer"></span>
+                    <div class="name">Clients</div>
+                    <div class="number">40</div>
+                </div>
+                <div class="type  _violet">
+                    <span class="icon community"></span>
+                    <div class="name">Our team</div>
+                    <div class="number">20</div>
+                </div>
+                <div class="type  _yellow">
+                    <span class="icon reward"></span>
+                    <div class="name">Awards</div>
+                    <div class="number">76</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- This is reviews -->
+    <section class="reviews">
+        <div class="box">
+            <h3 class="title">What People Say</h2>
+            <div class="block">
+                <div class="text">
+                    Article evident arrived express highest men did boy. Mistress sensible entirely am so.
+                    Quick can manor smart money hopes worth too. Comfort produce husband boy her had hearing.
+                    Law others theirs passed but wishes. You day real less till dear read. Considered use dispatched
+                    elancholy sympathize discretion led. Oh feel if up to till like. He an thing rapid these after going drawn or. 
+                    Timed she his law the spoil round defer. In surprise concerns informed betrayed he learning is ye. Ignorant formerly so ye blessing. 
+                </div>
+                <div class="item">
+                    <span class="icon _only quotes"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- This is footer -->
+    <footer class="footer">
+        <div class="box">
+            <h3 class="title">Location</h3>
+            <div class="text">121 Rock Sreet, 21 Avenue, New York, NY 92103-9000</div>
+            <span class="line"></span>
+            <div class="example">Sample text. Click to select the text box. Click again or double click to start editing the text.</div>
+        </div>
+    </footer>  
+    
+    
+    <!-- This is animation -->
+    <!-- <span class="messenger">Open</span> -->
 </body>
 </html>

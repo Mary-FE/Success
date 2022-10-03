@@ -1,0 +1,48 @@
+.service-info__icon:before {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+
+    border-radius: 50%;
+    font: 25px var(--font-family__icons);
+    color: var(--success-color1);
+    background-color: var(--success-color5);
+}
+
+.service-info__icon--phone:before {
+    content: var(--icon-mobile);
+}
+
+.service-info__icon--light:before {
+    content: var(--icon-light);
+}
+
+.service-info__icon--wi-fi:before {
+    content: var(--icon-wi-fi);
+}
+
+.service-info__icon--people:before {
+    content: var(--icon-people);
+}
+
+.service-info__icon--file:before {
+    content: var(--icon-file);
+}
+
+.service-info__icon--pencil:before {
+    content: var(--icon-pencil);
+}
+
+.service-info__subtitle {
+    margin-bottom: 25px;
+}
+
+.service-info__text {
+    margin-bottom: 15px;
+    font-size: 14px;
+}

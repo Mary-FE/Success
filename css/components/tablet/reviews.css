@@ -1,0 +1,21 @@
+.reviews .title {
+    font-size: 45px;
+}
+
+.reviews .text {
+    padding: 30px;
+    font-size: 19px;
+}
+
+.reviews .block {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+}
+
+.reviews .item {
+    display: flex;
+}
+
+.reviews .icon {
+    margin: auto;
+}

@@ -1,4 +1,4 @@
-.services .title {
+/* .services .title {
     font-size: 37px;
     margin-bottom: 30px;
 }
@@ -14,4 +14,8 @@
 .services .text {
     margin-bottom: 15px;
     font-size: 14px;
+} */
+
+.services .title {
+    margin-bottom: 20px;
 }

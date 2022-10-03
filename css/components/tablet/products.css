@@ -1,0 +1,7 @@
+.products .photo {
+    grid-template-columns: 1fr 1fr;
+}
+
+.products img {
+    height: 300px;
+}

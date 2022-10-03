@@ -1,2 +1,15 @@
 @import url('../../css/components/mobile/intro.css');
 @import url('../../css/components/mobile/services.css');
+@import url('../../css/components/mobile/about.css');
+@import url('../../css/components/mobile/products.css');
+@import url('../../css/components/mobile/study.css');
+@import url('../../css/components/mobile/consulting.css');
+@import url('../../css/components/mobile/reviews.css');
+@import url('../../css/components/mobile/footer.css');
+
+@import '../components/mobile/collapse.css';
+@import '../components/mobile/tabs.css';
+@import '../components/mobile/animation.css';
+@import '../components/service-info.css';
+
+

@@ -1,0 +1,39 @@
+.footer .title {
+    color: var(--success-color3);
+    margin-bottom: 20px;
+    font-size: 12px;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
+
+.footer .text:hover + .line {
+    width: 300px;
+    cursor: pointer;
+    border-bottom: 10px solid var(--success-color5);
+}
+
+.footer .line {
+    display: inline-block;
+    width: 150px;
+    margin-bottom: 10px;
+    border-bottom: 10px solid var(--success-color4);
+    transition: var(--base-animation);
+}
+
+
+.footer .text {
+    margin-bottom: 20px;
+    font: 600 32px/1.5 var(--font-family__text);
+}
+
+.footer .text:after {
+    content: '';
+    display: block;
+    width: 150px;
+    border-bottom: 2px var(--success-color4);
+}
+
+.footer .example {
+    max-width: 200px;
+    font-size: 12px;
+}

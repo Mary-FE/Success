@@ -1,4 +1,4 @@
-.into {
+.intro {
     position: relative;
 }
 
@@ -30,6 +30,11 @@
 
 .intro .second-title {  
     margin-bottom: 20px;
+}
+
+.intro .text {
+    margin-bottom: 15px;
+    font-size: 14px;
 }
 
 /* Input ==========================*/

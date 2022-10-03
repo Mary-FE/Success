@@ -1,0 +1,54 @@
+/* 
+Tabs styles
+============================================= */
+.tabs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tab__title {
+    width: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.tab__title + .tab__label {
+    padding: 10px 25px;
+    font: 500 18px var(--font-family__text);
+    cursor: pointer;
+    transition: var(--base-animation);
+}
+
+.tab__title:checked + .tab__label {
+    background-color: var(--success-color5);
+    color: var(--success-color1);
+}
+
+.tab__title:not(:checked) + .tab__label:hover {
+    opacity: .8;
+}
+
+.tab__title:checked + .tab__label + .tab__box {
+    display: block;
+}
+
+.tab__box {
+    display: none;
+    width: 100%;
+    padding: 15px;
+    order: 2;
+
+    background-color: var(--success-color1);
+    word-break: break-all;
+}
+
+.tab__box mark {
+    background-color: transparent;
+    color: var(--success-color5);
+    font: 600 18px var(--font-family__text);
+}
+
+.tab__box > *:not(:last-child) {
+    display: block;
+    margin-bottom: 25px;
+}

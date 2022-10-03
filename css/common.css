@@ -21,8 +21,10 @@ body {
 /* Submit */
 ._submit {
     padding: 10px 30px;
+    color: var(--success-color7);
     background-color: var(--success-form__button);
-    border-radius: 20px 
+    border-radius: 20px;
+    text-transform: none; 
 }
 
 ._submit:hover {
@@ -36,8 +38,21 @@ body {
     background-color: var(--success-color4);
 }
 
+._contact {
+    padding: 15px 60px;
+    color: var(--success-color1);
+    background-color: var(--success-color4);
+}
+
 ._contact:hover {
     background-color: var(--success-color2) ;
+}
+
+._read {
+    padding: 15px 50px;
+    margin: 30px 0;
+    letter-spacing: 5px;
+    background-color: var(--success-color4);
 }
 
 ._read:hover {
@@ -50,7 +65,7 @@ body {
 .icon { position: relative }
 .icon:before { font-family: var(--font-family__icons); }
 
-.icon._violet {
+/* .icon._violet {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -62,7 +77,7 @@ body {
     font-size: 25px;
     color: var(--success-color1);
     background-color: var(--success-color5);
-}
+} */
 
 .icon._bigger {
     color: var(--success-color1);
@@ -70,8 +85,32 @@ body {
 }
 
 .icon._only {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    padding: 30px;
+
+    border-radius: 50%;
+    font-size: 25px;
     color: var(--success-color5);
     background-color: var(--success-color1);
+}
+
+/* Link ================================= */
+.link {
+    padding: 10px 20px;  
+    font-size: 14px;
+    color: var(--success-color1);
+    background-color: var(--success-color5);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.link:hover {
+    background-color: var(--success-link-hover);
 }
 
 .mobile:before {content: var(--icon-mobile)}
@@ -80,6 +119,11 @@ body {
 .people:before {content: var(--icon-people)}
 .file:before {content: var(--icon-file)}
 .pencil:before {content: var(--icon-pencil)}
+.quotes:before {content: var(--icon-quotes)}
+.fist:before {content: var(--icon-fist)}
+.pointer:before {content: var(--icon-pointer)}
+.community:before {content: var(--icon-community)}
+.reward:before {content: var(--icon-reward)}
 /* ====================================================================================== */
 /* Titiles */
 h1 {

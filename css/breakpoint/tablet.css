@@ -1,2 +1,7 @@
-
+@import url('../components/tablet/intro.css');
 @import url('../components/tablet/services.css');
+@import url('../components/tablet/products.css');
+@import url('../components/tablet/reviews.css');
+@import url('../components/tablet/footer.css');
+@import url('../components/tablet/consulting.css');
+@import url('../components/tablet/study.css');

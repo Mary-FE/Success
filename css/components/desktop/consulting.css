@@ -1,0 +1,11 @@
+.consulting .title {
+    font-size: 50px;
+}
+
+.consulting .text {
+    font-size: 19px;
+}
+
+.consulting .item {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
